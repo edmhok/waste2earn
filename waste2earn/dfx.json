@@ -1,12 +1,12 @@
 {
   "canisters": {
-    "counter": {
-      "main": "canisters/counter/main.mo",
+    "token": {
+      "main": "canisters/token/main.mo",
       "type": "motoko"
     },
     "assets": {
       "dependencies": [
-        "counter"
+        "token"
       ],
       "frontend": {
         "entrypoint": "dist/index.html"
@@ -24,7 +24,7 @@
   },
   "networks": {
     "local": {
-      "bind": "127.0.0.1:4943",
+      "bind": "127.0.0.1:8000",
       "type": "ephemeral"
     },
     "ic": {
