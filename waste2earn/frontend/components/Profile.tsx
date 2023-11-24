@@ -7,22 +7,22 @@ const Profile = () => {
   const [assets] = useBalance()
 
   return (
-    <div className="example">
+    <div className="window white absolute z-10">
       {wallet ? (
         <>
           <p>Wallet address: <span style={{ fontSize: "0.7em" }}>{wallet ? wallet.principal : "-"}</span></p>
           <table>
             <tbody>
-            {assets && assets.map(asset => (
-              <tr key={asset.canisterId}>
-                <td>
-                  {asset.name}
-                </td>
-                <td>
-                  {asset.amount}
-                </td>
-              </tr>
-            ))}
+              {assets && assets.map(asset => (
+                <tr key={asset.canisterId}>
+                  <td>
+                    {asset.name}
+                  </td>
+                  <td>
+                    {asset.amount}
+                  </td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </>

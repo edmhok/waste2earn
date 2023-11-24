@@ -37,10 +37,10 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[700px] w-auto h-auto"
         >
           <span>
-            Turn Trash into CASH - Send and Receive
+            Turn Trash into CASH - Send
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              W2E Token{" "}
+              W2E Crytpto Coin{" "}
             </span>
             while Recycling with <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-500">
               {" "}
@@ -56,7 +56,7 @@ const HeroContent = () => {
           Be part of the revolution in giving worth to scrap things around us...
         </motion.p>
         <div className="flex flex-row gap-5">
-          <a href="http://waste2earn.vercel.app">
+          <a target="_blank" href="http://waste2earn.vercel.app">
             <motion.a
               variants={slideInFromLeft(1)}
               className="py-3 px-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"

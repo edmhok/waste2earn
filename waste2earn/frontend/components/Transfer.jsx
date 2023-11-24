@@ -32,7 +32,7 @@ function Transfer() {
   }
 
   return (
-    <div className="window white">
+    <div className="window white absolute z-10">
       <div className="transfer">
         <fieldset>
           <legend>To Account:</legend>

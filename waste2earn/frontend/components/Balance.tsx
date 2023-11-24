@@ -20,7 +20,7 @@ function Balance() {
 
 
   return (
-    <div className="window white">
+    <div className="window white absolute z-10">
       <label>Check account token balance:</label>
       <p>
         <input

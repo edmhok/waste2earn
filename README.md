@@ -2,6 +2,17 @@
 
 Waste Management - ICP Thinkhackathon Entry
 
+How to Run to your localhost:
+//Make sure you have installed Node 18.17.1
+//Local Deployment for dfx version 0.15.1
+
+1. git clone git@github.com:edmhok/w2etoken.git
+2. cd w2etoken/waste2earn
+3. npm install
+4. dfx start --background
+5. dfx deploy
+6. npm run dev
+
 # Check your Balance
 
 1. Find out your principal id:

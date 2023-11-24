@@ -24,8 +24,8 @@ function Faucet(props) {
   }
 
   return (
-    <div className="blue window">
-      <h2>
+    <div className="blue window absolute z-10">
+      <h2 className="text-center">
         <span role="img" aria-label="tap emoji">
           🚰
         </span>

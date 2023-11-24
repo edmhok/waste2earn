@@ -17,10 +17,12 @@ import * as token from "../.dfx/local/canisters/token"
 import { Profile } from "./components/Profile"
 import Hero from "./components/Hero"
 import Footer from "./components/Footer"
-import Header from "./components/Header"
 import Faucet from "./components/Faucet"
 import Balance from "./components/Balance"
 import Transfer from "./components/Transfer"
+import logotext from "../frontend/assets/waste2earn-title.png"
+import Encryption from "./components/Encryption"
+import StarsCanvas from "./components/StarBackground"
 
 function App(props) {
   return (
@@ -28,19 +30,20 @@ function App(props) {
       <ConnectDialog />
       <div className="w-full fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
         <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
-          <div className="h-auto w-auto flex flex-row items-center cursor-pointer">
+          <div className="h-auto w-auto flex flex-row gap-4 items-center cursor-pointer">
             <a href="/">
               <img
                 src={logo}
                 alt="logo"
-                width={90}
-                height={90}
+                width={50}
+                height={50}
                 className="cursor-pointer hover:animate-slowspin py-2"
               />
             </a>
-            <span className="font-bold ml-[10px] hidden md:block text-gray-300">
+            <div><img src={logotext} width={180} height={50} /></div>
+            {/* <span className="font-bold ml-[10px] hidden md:block text-gray-300">
               Waste2Earn
-            </span>
+            </span> */}
           </div>
 
           <div className="h-full flex flex-row items-center justify-between md:mr-20">
@@ -67,17 +70,16 @@ function App(props) {
         </div>
       </div>
       <Hero />
-      <p className="examples-title">
-        Examples
-      </p>
-      <div className="examples">
-        <Header />
+
+      <div className="flex flex-col">
         <Faucet userPrincipal={props.loggedInPrincipal} />
         <Profile />
         <Balance />
         <Transfer />
       </div>
+      <Encryption />
       <Footer />
+      <StarsCanvas />
 
     </div>
   )
