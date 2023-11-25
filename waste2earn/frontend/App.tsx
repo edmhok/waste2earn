@@ -15,6 +15,7 @@ import * as token from "../.dfx/local/canisters/token"
  * Some examples to get you started
  */
 import { Profile } from "./components/Profile"
+import { Transfer2 } from "./components/Transfer2"
 import Hero from "./components/Hero"
 import Footer from "./components/Footer"
 import Faucet from "./components/Faucet"
@@ -24,7 +25,7 @@ import logotext from "../frontend/assets/waste2earn-title.png"
 import Encryption from "./components/Encryption"
 import StarsCanvas from "./components/StarBackground"
 
-function App(props) {
+function App(props: { loggedInPrincipal: string }) {
   return (
     <div className="bg-[#030014]">
       <ConnectDialog />
@@ -70,16 +71,17 @@ function App(props) {
         </div>
       </div>
       <Hero />
+      <Profile />
+      <Transfer2 />
 
       <div className="flex flex-col">
         <Faucet userPrincipal={props.loggedInPrincipal} />
-        <Profile />
         <Balance />
         <Transfer />
       </div>
       <Encryption />
-      <Footer />
       <StarsCanvas />
+      <Footer />
 
     </div>
   )
@@ -97,6 +99,6 @@ const client = createClient({
 
 export default () => (
   <Connect2ICProvider client={client}>
-    <App />
+    <App loggedInPrincipal={""} />
   </Connect2ICProvider>
 )

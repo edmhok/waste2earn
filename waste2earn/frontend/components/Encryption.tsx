@@ -6,8 +6,8 @@ import video from "../assets/encryption.webm";
 
 const Encryption = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen w-full h-full mt-10">
-      {/* <div className="w-auto h-auto top-0 z-1">
+    <div className="flex flex-col relative items-center justify-center min-h-screen w-full h-full mt-10">
+      <div className="w-auto h-auto top-0 absolute z-[21]">
         <motion.div
           variants={slideInFromTop}
           className="text-[40px] font-medium flex flex-col justify-center text-gray-200"
@@ -17,14 +17,14 @@ const Encryption = () => {
             <h1 className="Welcome-text text-[12px]">Click to Navigate Figma</h1>
           </div>
         </motion.div>
-      </div> */}
+      </div>
 
       <div className="flex flex-col items-center justify-center translate-y-[-30px] absolute z-[20] w-auto h-auto">
-        <div className="flex flex-col mt-[120px] items-center group cursor-pointer w-auto h-auto">
+        <div className="flex flex-col mt-[30px] items-center group cursor-pointer w-auto h-auto">
           <a target="_blank" href="https://www.figma.com/proto/ybbj6pw7vYJc8I9kxjn4zE/waste2earn--UI-Design-for-Recycle?type=design&node-id=26-77&t=TwBIlOvvPZzhHPKd-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=7%3A6&mode=design">
             <img
               src={phone}
-              width={550}
+              width={580}
               height={200}
               className="translate-y-5 transition-all duration-200 group-hover:translate-y-11"
             />

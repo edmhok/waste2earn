@@ -119,6 +119,7 @@ body {
   }
   
 
+
   
   input,
   textarea {
@@ -153,6 +154,8 @@ body {
   .trade-buttons {
     text-align: center;
     margin-top: 20px;
+    font-weight: bolder;
+    color:slateblue;
   }
   
   div .transfer {

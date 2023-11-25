@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import { canisterId, createActor } from "../../src/declarations/token";
 import { AuthClient } from "@dfinity/auth-client";
 
-function Faucet(props) {
+interface Props {
+  userPrincipal: string;
+}
+
+function Faucet(props: Props) {
 
   const [isDisabled, setDisable] = useState(false);
   const [buttonText, setText] = useState("Gimme gimme");
 
-  async function handleClick(event) {
+  async function handleClick(event: React.MouseEvent<HTMLButtonElement>) {
     setDisable(true);
 
     const authClient = await AuthClient.create();
