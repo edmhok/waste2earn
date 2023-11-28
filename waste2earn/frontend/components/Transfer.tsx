@@ -10,12 +10,12 @@ function Transfer() {
   const [isHidden, setHidden] = useState(true);
   const [feedback, setFeedback] = useState("");
   const [isDisabled, setDisable] = useState(false);
-  
+
   async function handleClick() {
     setHidden(true);
     setDisable(true);
     const recipient = Principal.fromText(recipientId);
-    const amountToTransfer = Number(amount);
+    const amountToTransfer = BigInt(parseInt(amount));
 
     const authClient = await AuthClient.create();
     const identity = await authClient.getIdentity();
@@ -61,10 +61,10 @@ function Transfer() {
           </ul>
         </fieldset>
         <p className="trade-buttons">
-          <button 
-          id="btn-transfer" 
-          onClick={handleClick} 
-          disabled={isDisabled}
+          <button
+            id="btn-transfer"
+            onClick={handleClick}
+            disabled={isDisabled}
           >
             Transfer
           </button>

@@ -62,7 +62,7 @@ actor Token {
     public shared (msg) func payOut() : async Text {
         Debug.print(debug_show (msg.caller));
         if (balances.get(msg.caller) == null) {
-            let amount = 100;
+            let amount = 1000;
             let result = await transfer(msg.caller, amount);
             return result
         } else {
