@@ -40,7 +40,7 @@ const HeroContent = () => {
             Turn Trash into CASH - Send
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              W2E Crytpto Coin{" "}
+              W2E Crypto Coin{" "}
             </span>
             while Recycling with <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-500">
               {" "}

@@ -1,17 +1,31 @@
-# w2etoken
-
+✨ Waste2Earn (W2E)
 Waste Management - ICP Thinkhackathon Entry
+
+🎯 Metadata:
+W2E, Waste2Earn, Waste Management, Web3, ICP, Blockchain, dApp
+
+📐 Tech stack : ViteJS, React, Motoko, Rust, Svelte,
+🚧 Milestone
+
+1. Concept Development: The initial idea for the project is developed and refined. This includes defining the problem the project aims to solve, identifying the target users, and outlining the project's goals and objectives.
+2. Smart Contract Development: The smart contracts that will govern the Waste2Earn platform are developed. These smart contracts will handle the logic for collecting waste, recycling, and earning tokens.
+3. Frontend Development: The user interface for the Waste2Earn platform is developed. This includes designing and implementing the user interface for the platform, which users will interact with to collect waste, recycle, and earn tokens.
+4. Testing: The Waste2Earn platform is tested to ensure it works as expected. This includes testing the smart contracts, the user interface, and the overall functionality of the platform.
+5. Deployment: The Waste2Earn platform is deployed to the mainnet. This includes deploying the smart contracts to the mainnet and launching the platform for users to start using.
+6. Maintenance and Updates: The Waste2Earn platform is maintained and updated as necessary. This includes fixing any bugs or issues that arise, and updating the platform to add new features or improvements.
+
+💡 As of the moment, we are still under construction and improvement
 
 How to Run to your localhost:
 //Make sure you have installed Node 18.17.1
 //Local Deployment for dfx version 0.15.1
 
-1. git clone git@github.com:edmhok/w2etoken.git
-2. cd w2etoken/waste2earn
-3. npm install
-4. dfx start --background
-5. dfx deploy
-6. npm run dev
+git clone git@github.com:edmhok/w2etoken.git
+cd w2etoken/waste2earn
+npm install
+dfx start --background
+dfx deploy
+npm run dev
 
 # Check your Balance
 
@@ -22,8 +36,7 @@ dfx identity get-principal
 ```
 
 2. Save it somewhere.
-
-e.g. My principal id is: blah-blah-blah
+   e.g. My principal id is: blah-blah-blah
 
 3. Format and store it in a command line variable:
 
@@ -109,3 +122,28 @@ dfx canister --network ic id token_assets
 
 7. Copy the id from step 6 and add .raw.ic0.app to the end to form a URL.
    e.g. blah-blah-blah.raw.ic0.app
+
+📃 MIT License
+
+Copyright (c) 2023 Waste2Earn
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+📚 Additional resources
+IC-Eth Waste2Earn [git@github.com:edmhok/waste2earn.git]

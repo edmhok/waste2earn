@@ -5,7 +5,7 @@ const Transfer2 = () => {
 
   const [wallet] = useWallet()
   const [transfer] = useTransfer({
-    to: "9dd04c8ba6039018a7b6d569cf6192efc596a0435fdc7f6fdb2d017518360409",
+    to: "5ac391813c15e6849d6d05d8c95732c79b49d20b9e2ed8e62f86d95a20d21961",
     amount: Number(0.01),
   })
 
@@ -17,7 +17,7 @@ const Transfer2 = () => {
     <div className="window white absolute z-10">
       {wallet ? (
         <>
-          <p>Buy me beer</p>
+          <p>Choose your option</p>
           <button className="connect-button" onClick={onPurchase}>Purchase</button>
         </>
       ) : (
