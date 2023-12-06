@@ -1,43 +1,13 @@
 import Principal "mo:base/Principal";
-// import Cycle "mo:base/ExperimentalCycles";
 import HashMap "mo:base/HashMap";
 import Debug "mo:base/Debug";
 import Iter "mo:base/Iter";
 
 actor Token {
 
-    let owner : Principal = Principal.fromText("lt5vc-xirau-qp5xz-mtfoz-ecb47-lzwq4-6hpwl-r4o3m-4bcej-54z7m-4ae");
-    let controllerId = Principal.fromText("jsfb6-dqklx-fie2s-avyor-pxs3v-64a6c-wpowo-5mwbb-veuoy-qceqi-3qe");
+    let owner : Principal = Principal.fromText("gpnez-hwchy-jh7ob-z33ot-kyms3-37myw-4r35b-uweja-ltlm7-dpbux-4qe");
     let totalSupply : Nat = 1000000000;
     let symbol : Text = "W2E";
-
-    // Create the cycles faucet
-    // let faucet = Cycles.Counter({
-    //     controller = controllerId;
-    //     limit = 1_000_000_000_000; // set the cycle limit to 1 trillion cycles
-    //     accept = variant { callback = object {} }; //accept cycles sent to the canister
-    // });
-
-    // public func addCycles() : async () {
-    //     let available = Cycles.available();
-    //     let accepted = Cycles.accept(Cycles.available);
-    //     faucet.add(accepted)
-    // };
-
-    // public func withdrawCycles(amount : Nat) : async () {
-    //     let result = faucet.sub(amount);
-    //     switch (result) {
-    //         case (#ok(balance)) {
-    //             // transfer succeeded
-    //             let transferred = Cycles.add(balance); // add cycles back
-    //             ignore Cycles.accept(transferred)
-    //         };
-    //         case (#err(e)) {
-    //             // transfer failed
-    //             // handle error
-    //         }
-    //     }
-    // };
 
     private stable var balanceEntries : [(Principal, Nat)] = [];
     private var balances = HashMap.HashMap<Principal, Nat>(1, Principal.equal, Principal.hash);
