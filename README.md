@@ -1,4 +1,4 @@
-![Uploading waste2earn-preview.png…]()
+![Frontend Preview](https://github.com/edmhok/w2etoken/blob/main/waste2earn/frontend/assets/waste2earn-preview.png?raw=true)
 
 
 ✨ Waste2Earn (W2E)
