@@ -1,3 +1,5 @@
+<img width="1386" alt="waste2earn-preview" src="https://github.com/edmhok/w2etoken/waste2earn/frontend/assets/waste2earn-preview.png">
+
 ✨ Waste2Earn (W2E)
 Waste Management - ICP Thinkhackathon Entry
 
@@ -146,4 +148,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 📚 Additional resources
-IC-Eth Waste2Earn [git@github.com:edmhok/waste2earn.git]
+IC-Eth Waste2Earn [git@github.com/edmhok/waste2earn.git]
