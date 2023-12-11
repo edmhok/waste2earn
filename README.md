@@ -1,4 +1,5 @@
-<img width="1386" alt="waste2earn-preview" src="https://github.com/edmhok/w2etoken/waste2earn/frontend/assets/waste2earn-preview.png">
+![Uploading waste2earn-preview.png…]()
+
 
 ✨ Waste2Earn (W2E)
 Waste Management - ICP Thinkhackathon Entry
