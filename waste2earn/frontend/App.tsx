@@ -9,7 +9,7 @@ import "@connect2ic/core/style.css"
 /*
  * Import canister definitions like this:
  */
-import * as token from "../.dfx/local/canisters/token"
+import * as token from "../.dfx/ic/canisters/token"
 /*
  * Some examples to get you started
  */
