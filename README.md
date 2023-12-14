@@ -4,7 +4,13 @@
 
 Waste Management - ICP Thinkhackathon Entry
 
-Live Demo - https://zmqec-lyaaa-aaaag-acfuq-cai.icp0.io/
+Live ICP  - https://zmqec-lyaaa-aaaag-acfuq-cai.icp0.io/
+
+# Pitchdeck Presentation 
+(https://vimeo.com/894451903?share=copy)
+
+# Video Presentation 
+(https://vimeo.com/894451111)
 
 # Metadata 🎯
 
