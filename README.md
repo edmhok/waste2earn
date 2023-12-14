@@ -3,6 +3,7 @@
 # Waste2Earn (W2E) Token
 
 Waste Management - ICP Thinkhackathon Entry
+
 Live Demo - https://zmqec-lyaaa-aaaag-acfuq-cai.icp0.io/
 
 # Metadata 🎯
@@ -157,9 +158,9 @@ SOFTWARE.
 IC-Eth Waste2Earn [git@github.com/edmhok/waste2earn.git]
 
 # Team Waste2Earn
-Edmund Albores
-Chriswalter Bautista
-Charmagne Jane Duyag
-Sanyiah Piang
-Junelle Kurt Jerry Galupo
+Edmund Albores,
+Chriswalter Bautista,
+Charmagne Jane Duyag,
+Sanyiah Piang,
+Junelle Kurt Jerry Galupo,
 Julse Merencillo
