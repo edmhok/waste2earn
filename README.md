@@ -1,17 +1,14 @@
-![Frontend Preview](https://github.com/edmhok/w2etoken/blob/main/waste2earn/frontend/assets/waste2earn-preview.png?raw=true)
+<img width="1386" alt="waste2earn-preview" src="https://github.com/edmhok/w2etoken/waste2earn/frontend/assets/waste2earn-preview.png">
 
-
-# Waste2Earn (W2E) Token
-
+✨ Waste2Earn (W2E) -
 Waste Management - ICP Thinkhackathon Entry
+Live Demo - https://zmqec-lyaaa-aaaag-acfuq-cai.icp0.io/
 
-# Metadata 🎯
-
+🎯 Metadata:
 W2E, Waste2Earn, Waste Management, Web3, ICP, Blockchain, dApp
 
-📐 Tech stack : ViteJS, React, Motoko
-
-# Milestone 🚧
+📐 Tech stack : ViteJS, React, Motoko, Rust, Svelte,
+🚧 Milestone
 
 1. Concept Development: The initial idea for the project is developed and refined. This includes defining the problem the project aims to solve, identifying the target users, and outlining the project's goals and objectives.
 2. Smart Contract Development: The smart contracts that will govern the Waste2Earn platform are developed. These smart contracts will handle the logic for collecting waste, recycling, and earning tokens.
@@ -22,18 +19,16 @@ W2E, Waste2Earn, Waste Management, Web3, ICP, Blockchain, dApp
 
 💡 As of the moment, we are still under construction and improvement
 
-# How to Run to your localhost:
+How to Run to your localhost:
+//Make sure you have installed Node 18.17.1
+//Local Deployment for dfx version 0.15.1
 
-//Make sure you have installed Node and dfx
-
-```
 git clone git@github.com:edmhok/w2etoken.git
 cd w2etoken/waste2earn
 npm install
 dfx start --background
 dfx deploy
 npm run dev
-```
 
 # Check your Balance
 
@@ -154,4 +149,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 📚 Additional resources
-IC-Eth Waste2Earn [git@github.com/edmhok/waste2earn.git]
+IC-Ethereum Waste2Earn [git@github.com/edmhok/waste2earn.git]
