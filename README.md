@@ -7,10 +7,10 @@ Waste Management - ICP Thinkhackathon Entry
 Live ICP  - https://zmqec-lyaaa-aaaag-acfuq-cai.icp0.io/
 
 # Pitchdeck Presentation 
-(https://vimeo.com/894451903?share=copy)
+
 
 # Video Presentation 
-(https://vimeo.com/894451111)
+
 
 # Metadata 🎯
 
@@ -168,5 +168,4 @@ Edmund Albores,
 Chriswalter Bautista,
 Charmagne Jane Duyag,
 Sanyiah Piang,
-Junelle Kurt Jerry Galupo,
-Julse Merencillo
+
