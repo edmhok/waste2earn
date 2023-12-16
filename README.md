@@ -7,7 +7,7 @@ Waste Management - ICP Thinkhackathon Entry
 Live ICP  - https://zmqec-lyaaa-aaaag-acfuq-cai.icp0.io/
 
 # Pitchdeck Presentation 
-
+https://vimeo.com/894451903?share=copy
 
 # Video Presentation 
 https://www.youtube.com/watch?v=Vb8tsWetoGU
