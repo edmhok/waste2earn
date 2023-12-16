@@ -10,7 +10,7 @@ Live ICP  - https://zmqec-lyaaa-aaaag-acfuq-cai.icp0.io/
 
 
 # Video Presentation 
-
+https://www.youtube.com/watch?v=Vb8tsWetoGU
 
 # Metadata 🎯
 
