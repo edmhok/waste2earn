@@ -9,7 +9,7 @@ Live ICP  - https://zmqec-lyaaa-aaaag-acfuq-cai.icp0.io/
 # Pitchdeck Presentation 
 https://youtu.be/9APr3KlkNOI?si=H2g8YatGyQfA7dis
 
-# Video Presentation 
+# Video Teaser Presentation 
 https://www.youtube.com/watch?v=Vb8tsWetoGU
 
 # Metadata 🎯
